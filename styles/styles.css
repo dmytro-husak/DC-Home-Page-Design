@@ -1,0 +1,49 @@
+:root{
+    --main-color: #303030;
+}
+
+body{
+    font-family:"High Tower Text - Reg";
+    font-size: 14px;
+    font-weight: 400;
+    background: url(../image/Slide.png) no-repeat;
+    margin-right:180px;
+}
+
+.header{
+    max-width: 1200px;
+    max-height: 80px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.3);
+    margin-top: 65px;
+    
+}
+
+.header__logo{
+    display: block;
+    width: 456px;
+    height: 75px;
+    background-image: url(../image/Logo.png);
+    background-repeat: no-repeat;
+    margin: 1px 10px 4px 102px;
+}
+
+.header__list{
+    display: flex;
+    list-style-type: none;
+    gap: 25px;
+    margin: 21px 126px 15px 70px;
+}
+
+.header__link{
+    color: var(--main-color);
+    text-decoration: none;
+}
+
+.header__login{
+    color: var(--main-color);
+    text-decoration: none;
+    margin: 20px 126px 21px 297px;
+}
